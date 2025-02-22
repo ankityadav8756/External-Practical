@@ -11,14 +11,66 @@
     <style>
       body {
         font-family: "Sono", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f4f4f4;
+        margin: 0;
+      }
+      .pricing-container {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .pricing-plan {
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        flex: 1;
+        min-width: 250px;
+        max-width: 300px;
+      }
+      .plan-title {
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      .plan-price {
+        font-size: 1.2em;
+        color: #333;
+        margin: 10px 0;
+      }
+      .plan-features {
+        list-style: none;
+        padding: 0;
+      }
+      .plan-features li {
+        margin: 5px 0;
+      }
+      .plan-button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+        font-size: 1em;
+      }
+      .plan-button:hover {
+        background-color: #0056b3;
       }
 
-      /* Hint: What can you do with a media query and flexbox? */
-      @media (max-width: 1250px) {
+      @media (max-width: 768px) {
+        .pricing-container {
+          flex-direction: column;
+        }
       }
     </style>
   </head>
-
   <body>
     <div class="pricing-container">
       <div class="pricing-plan">
@@ -54,3 +106,4 @@
     </div>
   </body>
 </html>
+
