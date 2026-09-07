@@ -4,10 +4,6 @@ A simple and responsive Pricing Card UI project created to practice HTML and CSS
 
 The project displays three different pricing plans — Basic, Standard, and Premium — in a clean and simple card-based layout.
 
-## 📸 Project Preview
-
-![Pricing Card UI](./screenshot.png)
-
 ## 📌 Project Overview
 
 This project demonstrates how to create attractive pricing cards using HTML and CSS.
